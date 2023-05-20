@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpm_common", "gpm_common.csproj", "{01e2ea2e-ad18-e13a-e6ea-2985e8b80766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5d1cec16-a1ff-2eff-a578-f10cb5401f9b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpm_manager", "gpm_manager.csproj", "{6a9d4dfc-8973-52be-d534-9989eb6a03f6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1f84d900-03f0-5c5e-98d1-35dea3c55119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01e2ea2e-ad18-e13a-e6ea-2985e8b80766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01e2ea2e-ad18-e13a-e6ea-2985e8b80766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5d1cec16-a1ff-2eff-a578-f10cb5401f9b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5d1cec16-a1ff-2eff-a578-f10cb5401f9b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6a9d4dfc-8973-52be-d534-9989eb6a03f6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6a9d4dfc-8973-52be-d534-9989eb6a03f6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1f84d900-03f0-5c5e-98d1-35dea3c55119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1f84d900-03f0-5c5e-98d1-35dea3c55119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
