@@ -224,6 +224,8 @@ struct AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 // UnityEngine.AnimationState
 struct AnimationState_tC704F25A20169025B6CFDC2F00DC84152B5B73CE;
+// UnityEngine.Animator
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
 // System.Collections.ArrayList
 struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
 // UnityEngine.Experimental.Audio.AudioSampleProvider
@@ -6310,6 +6312,8 @@ struct CameraControlleer_tE9276C1E94E9DF5362C441360B939C5C67E208B0  : public Mon
 	float ___mouseX_6;
 	// UnityEngine.Transform CameraControlleer::Obstruction
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Obstruction_7;
+	// System.Single CameraControlleer::maxDistance
+	float ___maxDistance_8;
 };
 
 // CleanUpAll
@@ -6616,8 +6620,14 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public MonoBe
 	float ___speed_6;
 	// System.Single PlayerMovement::rotationSpeed
 	float ___rotationSpeed_7;
+	// TMPro.TextMeshProUGUI PlayerMovement::helpText
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___helpText_8;
+	// TMPro.TextMeshProUGUI PlayerMovement::helpTextMessage
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___helpTextMessage_9;
 	// UnityEngine.Rigidbody PlayerMovement::rb
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb_8;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb_10;
+	// UnityEngine.Animator PlayerMovement::playerAnim
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___playerAnim_11;
 };
 
 // UnityStandardAssets.ImageEffects.PostEffectsBase

@@ -9,6 +9,7 @@ public class Trigger : MonoBehaviour
     public string URL;
     public TextMeshProUGUI interactionText;
 
+    //This allows the player to interact with an object whenever the player enters the objects range
     public void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
@@ -19,6 +20,7 @@ public class Trigger : MonoBehaviour
         }
     }
 
+    //This makes sure the player can't interact with an object whenever the player is not in the objects range
     public void OnTriggerExit(Collider other)
     {
         if(other.CompareTag("Player"))
@@ -31,6 +33,7 @@ public class Trigger : MonoBehaviour
 
     void Start()
     {
+        //
         interactionText.gameObject.SetActive(false);
     }
 

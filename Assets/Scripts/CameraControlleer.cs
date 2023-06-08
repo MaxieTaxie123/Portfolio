@@ -22,17 +22,22 @@ public class CameraControlleer : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        //Calls CamControl method
         CamControl();
+        //Calls ViewObstructed method
         ViewObstructed();
     }
 
     //Main camera
     void CamControl()
     {
+        //Allows the camera to move around the X-Axis
         mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
-
+        
+        //Locks the camera in place so that it moves around a certain point
         transform.LookAt(Target);
 
+        //Calculates the position on which the camera should move
         Target.rotation = Quaternion.Euler(0, mouseX, 0);
     }
 

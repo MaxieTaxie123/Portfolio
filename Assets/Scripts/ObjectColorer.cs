@@ -7,6 +7,7 @@ public class ObjectColorer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Changes the color of a chosen object to black
         gameObject.GetComponent<Renderer>().material.color = Color.black;
     }
 

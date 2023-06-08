@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AnalogicClock
     - CameraControlleer
     - ObjectColorer
     - PlayerMovement
@@ -85,35 +84,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1786}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 2490}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 2984}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3484}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 4752}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 5034}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 5410}
+      Script: {instanceID: 5412}
     - Class: 114
-      Script: {instanceID: 5680}
+      Script: {instanceID: 5826}
     - Class: 114
-      Script: {instanceID: 5824}
+      Script: {instanceID: 6476}
     - Class: 114
-      Script: {instanceID: 6474}
+      Script: {instanceID: 6644}
     - Class: 114
-      Script: {instanceID: 6642}
+      Script: {instanceID: 6832}
     - Class: 114
-      Script: {instanceID: 6830}
-    - Class: 114
-      Script: {instanceID: 7004}
+      Script: {instanceID: 7006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -433,7 +430,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 172af18b159452adfcaf2581e53ec6d5
+      Hash: f9463376400cb70af98775f3f4ae26bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -739,7 +736,7 @@ ScriptsOnlyBuild:
     className: PostProcessVolume
   - hash:
       serializedVersion: 2
-      Hash: 62180da89d4ba5112f574633150ecc29
+      Hash: 9608b9363607bd35652c5f297b5743d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraControlleer
@@ -1322,4 +1319,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/haand/OneDrive/Documenten/S1Portfolio/Builds/Build_v4
+  playerPath: C:/Users/haand/OneDrive/Documenten/S1Portfolio/Builds/Build_v5

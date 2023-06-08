@@ -22,8 +22,11 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void FixedUpdate()
-    {
+    {   
+        //Calls PlayerController method
         PlayerController();
+
+        //Calls AccesHelp method
         AccessHelp();
     }
 
@@ -41,11 +44,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.H))
         {
+            //If 'H' is pressed enable the explanation and disable help message
             helpText.gameObject.SetActive(false);
             helpTextMessage.gameObject.SetActive(true);
         }
         else
         {
+            //If 'H' is not pressed disable the explanation and enable help message
             helpText.gameObject.SetActive(true);
             helpTextMessage.gameObject.SetActive(false);
         }
